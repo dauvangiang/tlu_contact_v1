@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detail_common_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <include layout="@layout/back_button" />
+
+    <ImageView
+        android:id="@+id/avatar_image_detail"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/text_name_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:paddingStart="36dp"
+        android:paddingEnd="36dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/chat_action"
+            android:layout_width="75dp"
+            android:layout_height="65dp"
+            android:layout_margin="8dp"
+            android:background="@color/white"
+            android:gravity="center"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Nhắn tin"
+                android:textColor="@color/button_selected"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:drawableTint="@color/button_selected"
+                app:drawableTopCompat="@drawable/ic_text_chat" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/call_action"
+            android:layout_width="75dp"
+            android:layout_height="65dp"
+            android:layout_margin="8dp"
+            android:background="@color/white"
+            android:gravity="center"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Gọi thoại"
+                android:textColor="@color/button_selected"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:drawableTint="@color/button_selected"
+                app:drawableTopCompat="@drawable/ic_call" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/email_action"
+            android:layout_width="75dp"
+            android:layout_height="65dp"
+            android:layout_margin="8dp"
+            android:background="@color/white"
+            android:gravity="center"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Gửi email"
+                android:textColor="@color/button_selected"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:drawableTint="@color/button_selected"
+                app:drawableTopCompat="@drawable/ic_email" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Di động"
+                android:textColor="@color/gray_text" />
+
+            <TextView
+                android:id="@+id/text_phone_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0000000000000000"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/copy_phone_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_copy_resized" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thư điện tử"
+                android:textColor="@color/gray_text" />
+
+            <TextView
+                android:id="@+id/text_email_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0000000000000000"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/copy_email_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_copy_resized" />
+    </LinearLayout>
+</LinearLayout>

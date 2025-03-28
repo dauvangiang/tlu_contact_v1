@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="second_black">#FF666666</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray_text">#8E8E8E</color>
+    <color name="gray_border_color">#949494</color>
+    <color name="action_color">#0084FF</color>
+    <color name="border_color_blue">#7DCCFF</color>
+    <color name="button_selected">#0084FF</color>
+    <color name="gray_background">#F2F2F2</color>
+    <color name="primary_blue">#FF006CD9</color>
+</resources>

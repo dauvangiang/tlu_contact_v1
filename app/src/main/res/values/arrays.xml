@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dropdown_units">
+        <item>Tất cả</item>
+        <item>Khoa</item>
+        <item>Phòng</item>
+        <item>Trung tâm</item>
+        <item>Khác</item>
+    </string-array>
+
+    <string-array name="dropdown_staffs">
+        <item>Tất cả</item>
+        <item>Khoa Công nghệ thông tin</item>
+        <item>Khoa Cơ khí</item>
+        <item>Khoa Kinh tế</item>
+        <item>Phòng Đào tạo</item>
+        <item>Thư viện</item>
+        <item>Trung tâm Ngoại ngữ</item>
+        <item>Trung tâm Tin học</item>
+        <item>Khác</item>
+    </string-array>
+</resources>
