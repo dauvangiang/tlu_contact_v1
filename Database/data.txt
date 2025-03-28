@@ -1,0 +1,27 @@
+// Dữ liệu đơn vị
+
+Phòng Đào tạo,0987654321,daotao@university.edu.vn,Tòa A, Trường Đại học X
+Phòng Công tác Sinh viên,0912345678,ctsv@university.edu.vn,Tòa B, Trường Đại học X
+Phòng Khoa học Công nghệ,0901122334,khcn@university.edu.vn,Tòa C, Trường Đại học X
+Phòng Hành chính - Quản trị,0933445566,hcqt@university.edu.vn,Tòa D, Trường Đại học X
+Khoa Công nghệ Thông tin,0977889900,cntt@university.edu.vn,Tòa E, Trường Đại học X
+Khoa Điện - Điện tử,0966123456,dientu@university.edu.vn,Tòa F, Trường Đại học X
+Khoa Cơ khí,0944556677,cokhi@university.edu.vn,Tòa G, Trường Đại học X
+Khoa Kinh tế,0922334455,kinhte@university.edu.vn,Tòa H, Trường Đại học X
+Thư viện,0911223344,thuvien@university.edu.vn,Tòa I, Trường Đại học X
+Trung tâm Ngoại ngữ,0988997766,ngoaingu@university.edu.vn,Tòa J, Trường Đại học X
+Trung tâm Tin học,0977112233,tinhoc@university.edu.vn,Tòa K, Trường Đại học X
+
+
+// Dữ liệu CBGV
+
+TS. Nguyễn Văn An,0987654321,nguyenvana@university.edu.vn,Phòng Đào tạo,Trưởng phòng
+ThS. Trần Thị Bích,0978123456,tranthibich@university.edu.vn,Thư viện,Giám đốc
+PGS. TS. Lê Văn Cường,0969988776,levancuong@university.edu.vn,Khoa Công nghệ thông tin,Trưởng khoa
+GS. TS. Phạm Minh Đức,0956677889,phamminhduc@university.edu.vn,Khoa Công nghệ thông tin,Phó khoa
+TS. Đỗ Thị Hằng,0945566778,dothihang@university.edu.vn,Khoa Công nghệ thông tin,Giảng viên
+ThS. Bùi Quang Huy,0934455667,buiquanghuy@university.edu.vn,Khoa Cơ khí,Giảng viên
+TS. Hoàng Thị Lan,0923344556,hoangthilan@university.edu.vn,Khoa Cơ khí,Giảng viên
+ThS. Nguyễn Minh Phúc,0912233445,nguyenminhphuc@university.edu.vn,Khoa Cơ khí,Giảng viên
+PGS. TS. Võ Thị Quỳnh,0901122334,vothiquynh@university.edu.vn,Khoa Cơ khí,Giảng viên
+TS. Đặng Thanh Sơn,0890011223,dangthanhson@university.edu.vn,Khoa Cơ khí,Giảng viên
